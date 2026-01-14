@@ -3,11 +3,11 @@ public class CalculateSimpleInterest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
          System.out.println("Enter Principle: ");
-         double p = sc.nextInt();
+         double p = sc.nextDouble();
          System.out.println("Enter Interest Rate: ");
-         double r = sc.nextInt();
+         double r = sc.nextDouble();
          System.out.println("Enter Time: ");
-         double t = sc.nextInt();
+         double t = sc.nextDouble();
          double Interest = (p * r * t) / 100;
          System.out.println("Simple Interest Rate is : "+Interest);
          sc.close();
